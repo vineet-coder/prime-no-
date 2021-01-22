@@ -7,9 +7,9 @@ function clickHandler() {
   for (var i = 2; i < nO; i++) {
     if (nO % i === 0 || (nO = 1)) {
       outputDiv.innerText = nO + "is not a prime Number";
-    } else {
-      outputDiv.innerText = nO + "is  a prime Number";
+      break;
     }
+    outputDiv.innerText = nO + "is  a prime Number";
   }
 }
 
