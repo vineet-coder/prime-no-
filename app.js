@@ -5,7 +5,7 @@ var outputDiv = document.querySelector("#output");
 function clickHandler() {
   var nO1 = noInput1.value;
   if (nO1 == 1 || nO1 == 2) {
-    outputDiv.innerText = "no.is Prime ddddssaasd";
+    outputDiv.innerText = "no.is not Prime ";
   } else {
     if (nO1 > 1) {
       for (var i = 2; i < nO1; i++) {
